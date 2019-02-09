@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatInput} from '@angular/material';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',

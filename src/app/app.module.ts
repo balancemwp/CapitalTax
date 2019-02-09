@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { OwlModule } from 'ngx-owl-carousel';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
@@ -18,6 +19,8 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { CtaComponent } from './cta/cta.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule, MatFormFieldModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,12 @@ import { FaqComponent } from './faq/faq.component';
     BrowserModule,
     AppRoutingModule,
     AngularFontAwesomeModule,
-    OwlModule
+    OwlModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
