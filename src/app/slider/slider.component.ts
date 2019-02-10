@@ -18,7 +18,6 @@ export class SliderComponent implements OnInit {
 
   ngOnInit() {
     this.sliderService.get().then(ret => {
-      console.log(ret);
       this.sliderContent = ret.content;
       this.slideImages = ret.images;
     });

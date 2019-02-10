@@ -20,7 +20,6 @@ import { CtaComponent } from './cta/cta.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule, MatFormFieldModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -43,8 +42,6 @@ import { MatInputModule, MatFormFieldModule } from '@angular/material';
     AngularFontAwesomeModule,
     OwlModule,
     BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatInputModule,
     FormsModule,
     ReactiveFormsModule
   ],
