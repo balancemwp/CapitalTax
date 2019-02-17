@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Constants } from '../shared/constants';
 
 @Component({
   selector: 'app-top-bar',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
 
+  contactPhone: string;
+  emailAddress: string;
+
   constructor() { }
 
   ngOnInit() {
+    this.contactPhone = Constants.ContactPhone;
+    this.emailAddress = Constants.EmailAddress;
   }
 
 }

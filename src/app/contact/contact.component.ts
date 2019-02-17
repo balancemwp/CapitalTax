@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Constants } from '../shared/constants';
 
 @Component({
   selector: 'app-contact',
@@ -8,9 +9,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
 
+  contactPhone: string;
+  emailAddress: string;
+
   constructor() { }
 
   ngOnInit() {
+    this.contactPhone = Constants.ContactPhone;
+    this.emailAddress = Constants.EmailAddress;
   }
 
 }

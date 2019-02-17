@@ -34,7 +34,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TestimonialComponent,
     CtaComponent,
     ContactComponent,
-    FaqComponent
+    FaqComponent,
   ],
   imports: [
     BrowserModule,

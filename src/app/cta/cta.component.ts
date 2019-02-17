@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Constants } from '../shared/constants';
 
 @Component({
   selector: 'app-cta',
@@ -9,7 +10,10 @@ export class CtaComponent implements OnInit {
 
   constructor() { }
 
+  contactPhone: string;
+
   ngOnInit() {
+    this.contactPhone = Constants.ContactPhone;
   }
 
 }
