@@ -19,4 +19,7 @@ export class ContactComponent implements OnInit {
     this.emailAddress = Constants.EmailAddress;
   }
 
+  sendEmail(){
+    
+  }
 }
