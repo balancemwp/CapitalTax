@@ -19,7 +19,6 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { CtaComponent } from './cta/cta.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -41,7 +40,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     AngularFontAwesomeModule,
     OwlModule,
-    BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule
   ],
