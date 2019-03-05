@@ -20,6 +20,7 @@ export class ContactComponent implements OnInit {
   }
 
   sendEmail(){
-    
+    // mailto:"admin@capitalcityaccounting.com?subject=Subject&body=message%";
+    location.href='admin@capitalcityaccounting.com';
   }
 }
