@@ -11,16 +11,14 @@ export class ContactComponent implements OnInit {
 
   contactPhone: string;
   emailAddress: string;
+  contact: string;
+  address: string;
 
   constructor() { }
 
   ngOnInit() {
     this.contactPhone = Constants.ContactPhone;
     this.emailAddress = Constants.EmailAddress;
-  }
-
-  sendEmail(){
-    // mailto:"admin@capitalcityaccounting.com?subject=Subject&body=message%";
-    location.href='admin@capitalcityaccounting.com';
+    this.address = Constants.Address;
   }
 }

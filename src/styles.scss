@@ -106,9 +106,6 @@ textarea::-webkit-input-placeholder { color: #595857 !important; }
 
 /*-------------- align ------------*/
 
-/* =WordPress Core
--------------------------------------------------------------- */
-
 .alignnone { margin: 5px 20px 20px 0; }
 .aligncenter, div.aligncenter { display: block; margin: 5px auto 5px auto; }
 .alignright { float: right; margin: 0px 0 30px 30px; }
@@ -128,22 +125,18 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
     3. Buttons 
 -----------------------------------*/
 .btn { font-family: 'Source Sans Pro', sans-serif; font-size: 17px; text-transform: capitalize; font-weight: 700; padding: 12px 20px; margin-bottom: 4px; border-radius: 2px; line-height: 1.6; border: transparent; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; word-wrap: break-word; white-space: normal !important; }
-.btn-primary { background-color: #278e19; color: #fff; }
-.btn-primary:hover { background-color: #3cb42b; color: #fff; }
-.btn-primary.focus, .btn-primary:focus { background-color: #3cb42b; color: #fff; }
-.btn-default { background-color: #1281e2; color: #fff; }
-.btn-default:hover { background-color: #106ec1; color: #fff; }
-.btn-default.focus, .btn-default:focus { background-color: #106ec1; color: #fff; }
+.btn-primary { background-color: #3c967e; color: #fff; }
+.btn-primary:hover { background-color: #47b396; color: #fff; }
+.btn-primary.focus, .btn-primary:focus { background-color: #47b396; color: #fff; }
+.btn-default { background-color: #3c967e; color: #fff; }
+.btn-default:hover { background-color: #368771; color: #fff; }
+.btn-default.focus, .btn-default:focus { background-color: #47b396; color: #fff; }
 .btn-lg { padding: 14px 30px; font-size: 19px; }
 .btn-sm { padding: 10px 18px; font-size: 13px; }
 .btn-xs { padding: 6px 14px; font-size: 12px; }
 .btn-link { color: #278e19; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
 .btn-link:hover { color: #278e19; text-decoration: none; }
 button.btn { margin-right: -1px; }
-
-/*-----------------------------------
-    4. General / Elements 
------------------------------------*/
 
 /*----------------------- 
     4.1 Section space :
@@ -346,20 +339,19 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 #navigation>ul>li:hover>a { color: #252b2e; background-color: #fff; border-radius: 0px; }
 #navigation>ul>li.has-sub>a { padding-right: 32px; }
 
-/*#navigation>ul>li>a:after {
+#navigation>ul>li>a:after {
     position: absolute;
     top: 16px;
     right: -3px;
     height: 2px;
     display: block;
-    content: '/';
-}*/
+}
 #navigation>ul>li.has-sub>a:before { position: absolute; right: 14px; font-family: FontAwesome; content: "\f107"; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
 
-/*#navigation > ul > li.has-sub:hover > a:before {
+#navigation > ul > li.has-sub:hover > a:before {
  top: 23px;
  height: 0;
-}*/
+}
 #navigation ul ul { position: absolute; left: -9999px; }
 #navigation.align-right ul ul { text-align: right; }
 #navigation ul ul li { top: 0px; height: 0; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
@@ -443,10 +435,6 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .slider .owl-carousel .owl-item img { width: 100%; }
 
 /*-----------------------------------
-7. before after gallery
--------------------------------------*/
-
-/*-----------------------------------
 8. Footer 
 -------------------------------------*/
 .footer { background-color: #1f2426; padding-top: 80px; padding-bottom: 30px; color: #748187; font-weight: 400; }
@@ -473,7 +461,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*-------------------------
  9.1 About us
 ---------------------------*/
-.about-section { background: url(./assets/images/about-bg.jpg) no-repeat; background-size: cover; padding: 64px 0px; }
+.about-section { background: url(./assets/images/about-001.jpeg) no-repeat; background-size: cover; padding: 64px 0px; }
 .about-block { background-color: #2a7966; padding: 45px; color: #fff; border-top-left-radius: 2px; border-top-right-radius: 2px; }
 .about-block ul { }
 .about-block ul li { padding-left: 18px; }

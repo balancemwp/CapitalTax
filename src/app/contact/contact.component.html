@@ -1,33 +1,33 @@
 <div class="space-medium">
   <div class="container">
       <div class="row">
-          <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
+          <div class="col-lg-offset-1 col-lg-12 col-md-offset-1 col-md-12 col-sm-12 col-xs-12">
               <div class="mb30">
                   <div class="contact-form ">
                       <h1>Get In Touch</h1>
-                      <p class="mb40">Drop us a line via the contact form. We will do our best to reply as soon as possible. </p>
+                      <p class="mb40">Drop us a line and we will reply as soon as possible. </p>
                       <div class="row">
                           <!-- form -->
-                          <form>
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                          <form style="width:100%">
+                              <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
                                   <div class="form-group">
                                       <label class="control-label sr-only " for="name"></label>
                                       <input id="name" type="text" placeholder="First Name" class="form-control">
                                   </div>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
                                   <div class="form-group">
                                       <label class="control-label sr-only " for="name"></label>
                                       <input id="name" type="text" placeholder="Last Name" class="form-control">
                                   </div>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
                                   <div class="form-group">
                                       <label class="control-label sr-only " for="email"></label>
                                       <input id="email" type="text" placeholder="Email" class="form-control">
                                   </div>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
                                   <div class="form-group">
                                       <label class="control-label sr-only " for="phone"></label>
                                       <input id="phone" type="text" placeholder="phone" class="form-control">
@@ -40,12 +40,7 @@
                                   </div>
                               </div>
                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                  <!-- <button class="btn btn-primary" navigateurl= 'mailto:cumar27@gmail.com'>send us message</button> -->
-                                  <!-- <button class="btn btn-primary" navigateurl= 'mailto:cumar27@gmail.com' onclick="sendEmail()">send us message</button> -->
-                                  <!-- <button class="btn btn-primary" <a href='mailto:cumar27@gmail.com'>send us message</a>"</button> -->
-                                  <!-- <button class="btn btn-primary" onclick="location.href='admin@capitalcityaccounting.com'">send us message</button> -->
-                                  <!-- <a href='mailto:cumar27@gmail.com'>send us message</a> -->
-                                  <a class="btn btn-primary" href='mailto:cumar27@gmail.com' role="button">send us message</a>
+                                  <a class="btn btn-primary" href='mailto:{{emailAddress}}' role="button">send us message</a>
                                 </div>
                             </form>
                              <!--/.form -->
@@ -60,7 +55,7 @@
                       <div class="contact-widget">
                           <div class="contact-content">
                               <h4 class="contact-widget-title">Address</h4>
-                              <p>1250 Mark Avenue Ahmedabad,- India </p>
+                              <p>{{address}}</p>
                           </div>
                       </div>
                   </div>
@@ -70,7 +65,7 @@
                       <div class="contact-widget">
                           <div class="contact-widget-content">
                               <h4 class="contact-widget-title ">Phone Numbers</h4>
-                              <p class="widget-cta-text">1800-123-4657 </p>
+                              <p class="widget-cta-text">{{contactPhone}}</p>
                           </div>
                       </div>
                   </div>
@@ -80,7 +75,7 @@
                       <div class="contact-widget">
                           <div class="contact-widget-content">
                               <h4 class="contact-widget-title ">Email Address</h4>
-                              <p>info@gsttax.com </p>
+                              <p>{{emailAddress}}</p>
                           </div>
                       </div>
                   </div>
