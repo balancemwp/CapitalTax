@@ -14,17 +14,20 @@ export class SliderService {
     const sliderContent: Array<SliderContent> = [{
       title: 'Tax Preparation and Accounting Services',
       text: 'We are not a typical accounting firm.  We provide the individual detail that large firms do not.',
-      linkText: 'View More'
+      linkText: 'View More',
+      image: '../../assets/images/slider-0001.jpeg'
     },
     {
       title: 'Our Expert Always Guide You',
       text: 'Our expertise that provides innovative and dynamic solutions that allow both  our individual and business clients to benefit.',
-      linkText: 'Meet the Team'
+      linkText: 'Meet the Team',
+      image: '../../assets/images/slider-0002.jpeg'
     },
     {
       title: 'We have the Best Tax Solutions',
       text: 'We work to ensure our customized tax solutions meet your every need.',
-      linkText: 'Read Reviews'
+      linkText: 'Read Reviews',
+      image: '../../assets/images/slider-0003.jpeg'
     }];
 
     const sliderImages = ['../../assets/images/slider-0001.jpeg', '../../assets/images/slider-002.jpeg', '../../assets/images/slider-0003.jpeg'];

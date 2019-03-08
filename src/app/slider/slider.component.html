@@ -1,20 +1,27 @@
 <div class="slider">
-  <div class="slider">
-    <owl-carousel [options]="slideOptions" [items]="slideImages" [carouselClasses]="['owl-theme', 'sliding']">
-      <div class="item" *ngFor="let image of slideImages;let i = index">
-        <div class="slider-img"> <img src={{image}} alt=""></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-captions">
-                <h1 class="slider-title">{{sliderContent[i].title}}</h1>
-                <p class="slider-text hidden-xs">{{sliderContent[i].text}} </p>
-                <a routerLink="../about" class="btn btn-primary btn-lg hidden-sm hidden-xs">{{sliderContent[i].linkText}}</a>
-              </div>
-            </div>
-          </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div [className]="i==0?'carousel-item active':'carousel-item'" *ngFor="let content of sliderContent;let i = index">
+        <div class="slider-img"> <img class="d-block w-100" src="{{content.image}}" alt="First slide"></div>
+        
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="slider-title">{{content.title}}</h1>
+          <p class="slider-text hidden-xs">{{content.text}}</p>
+          <a routerLink="../about" class="btn btn-primary btn-lg hidden-sm hidden-xs">{{content.linkText}}</a>
         </div>
       </div>
-    </owl-carousel>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
-</div>
