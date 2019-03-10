@@ -19,6 +19,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { CtaComponent } from './cta/cta.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { FaqComponent } from './faq/faq.component';
     CtaComponent,
     ContactComponent,
     FaqComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,

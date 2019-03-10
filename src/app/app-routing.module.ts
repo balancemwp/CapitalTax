@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { TeamComponent } from './team/team.component';
 
 const routes: Routes = [
  { path: '', redirectTo: 'landing-page',  pathMatch: 'full'},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'service', component: ServiceComponent},
   {path: 'testimonials', component: TestimonialComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'team', component: TeamComponent},
 ];
 
 @NgModule({

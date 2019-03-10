@@ -462,23 +462,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .service-sidenav-icon { font-size: 16px; color: #8e1e1a; padding-top: 5px; float: left; padding-right: 10px; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 .sidenav a:focus, a:active { background-color: transparent; border: 0px; }
 
-/*--------------------------
- 9.5  Testimonial
----------------------------*/
-.testimonial-block { border: 1px solid #e6eaed; padding: 0px 45px; background-color: #fff; margin-bottom: 30px; position: relative; margin-top: 40px; }
-.testimonial-content { position: relative; bottom: 45px; font-style: italic; font-size: 21px; font-weight: 600; }
-.testimonial-img { margin-bottom: 35px; }
-.testimonial-img img { }
-.testimonial-meta { color: #1281e2; font-style: normal; }
-.testimonial-meta span { }
 
-/*--------------------------
- 9.6  team
- ----------------------------*/
-.team-block { }
-.team-img img { }
-.team-content { }
-.team-title { }
 
 /*-------------------------
  9.8 Contact us
@@ -608,7 +592,60 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 
 .logo-text{visibility: hidden};
 
-/*-------------FAQ-------------*/
+/*-------------team-------------*/
+.team-block {
+    border: 1px solid #e6eaed;
+    padding: 0px 45px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .team-member{
+    padding-top: 65px
+  }
+
+  .team-member-image {
+    padding: 25px 0 25px 0;
+  }
+
+  .team-member-image img {
+    height: 200px;
+  }
+
+  .team-member-detail {
+    position: relative;
+    font-size: 21px;
+    padding: 5px 0 30px 0;
+  }
+
+  .team-member-name {
+    font-weight: 600;
+    font-size: 28px;
+    padding:0 0 8px 0;
+  }
+
+  .team-member-title {
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+
+
+  .team-social-link {
+    border: 2px solid #245A4C;
+    border-radius: 50%;
+    height: 2.2em;
+    width: 2.2em;
+    display: inline-block;
+    line-height: 2em;
+    text-align: center;
+    position: relative;
+    -webkit-transition: border-color .3s;
+    transition: border-color .3s;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 .5em 0 0;
+  }
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -627,6 +664,8 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 @media only screen and (max-width:992px) {
     .logo {visibility: hidden; clear: both; width: 28%; display: none;} 
     .menu-bar {padding-top:15px;};
+    .member {padding-top:0px;}
+    .team-member {padding-top:0;}
 }
 
 /* Small Devices, Tablets */
