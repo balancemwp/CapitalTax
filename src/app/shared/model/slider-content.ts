@@ -3,4 +3,5 @@ export interface SliderContent {
     text: string;
     linkText: string;
     image: string;
+    routerLink: string;
   }
