@@ -863,7 +863,7 @@ button.btn {
 
 .cta-icon {
   font-size: 30px;
-  color: #1281e2;
+  color: #2ca01c;
   padding-right: 15px;
 }
 
@@ -1365,9 +1365,9 @@ img {
 }
 
 .slider-img {
-  background: -moz-linear-gradient(top, rgba(39, 74, 105, 0.4) 0%, rgba(39, 74, 105, 0.4) 100%);
-  background: -webkit-linear-gradient(top, rgba(39, 74, 105, 0.4) 0%, rgba(39, 74, 105, 0.4) 100%);
-  background: linear-gradient(to bottom, rgba(39, 74, 105, 0.4) 0%, rgba(39, 74, 105, 0.4) 100%);
+  background: -moz-linear-gradient(top, rgba(58, 110, 156, 0.15) 0%, rgba(58, 110, 156, 0.15) 100%);
+  background: -webkit-linear-gradient(top, rgba(58, 110, 156, 0.18) 0%, rgba(58, 110, 156, 0.18) 100%);
+  background: linear-gradient(to bottom, rgba(58, 110, 156, 0.18) 0%, rgba(58, 110, 156, 0.18) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc1b2429', endColorstr='#cc1b2429', GradientType=0);
   position: relative;
   width: 100%
@@ -1395,11 +1395,12 @@ img {
 
 .slider-text {
   color: #fff;
+  font-size: 24px;
 }
 
 .slider .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 100%;
 }
 
@@ -2232,13 +2233,6 @@ a:active {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width:768px) {
-  .slider-captions {
-    bottom: 35px;
-  }
-
-  .slider-title {
-    font-size: 32px;
-  }
 
   .page-section {
     padding-top: 50px;
@@ -2282,9 +2276,9 @@ a:active {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width:480px) {
-  .slider-captions {
-    bottom: 10px;
-  }
+  // .slider-captions {
+  //   bottom: 10px;
+  // }
 
   .slider-title {
     font-size: 21px;
@@ -2320,9 +2314,9 @@ a:active {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width:320px) {
-  .slider-captions {
-    bottom: 10px;
-  }
+  // .slider-captions {
+  //   bottom: 10px;
+  // }
 
   .slider-title {
     font-size: 21px;
